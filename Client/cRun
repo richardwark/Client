@@ -1,2 +1,4 @@
-ssh -i ../Keys/*s oracle@140.86.15.7 "bash -s" -- < ./cSetup 
+ls ./packages > packages.txt
+scp -i ./Keys/*s ./packages.txt opc@140.86.15.7:/tmp
+ssh -i ./Keys/*s oracle@140.86.15.7 "bash -s" -- < ./cSetup 
 #  ssh -i opc@140.86.15.7 "bash -s" -- < ./cSetup 

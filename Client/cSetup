@@ -1,2 +1,26 @@
-sudo yum install -y dos2unix mysql gedit rsync tigervnc-server nodejs wget
+# sudo yum install -y dos2unix mysql gedit rsync tigervnc-server nodejs wget
+# sudo yum install -y echo < `ls ../packages`
+# ls ./packages > packages.txt
+wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+sudo yum localinstall epel-release-6-8.noarch.rpm 
+sudo cat << EOF > /etc/yum.repos.d/google-chrome.repo
+[google-chrome]
+name=google-chrome - \$basearch
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/\$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+EOF
+wget http://chrome.richardlloyd.org.uk/install_chrome.sh
+chmod 777 install_chrome.sh 
+./install_chrome.sh 
+# sudo yum update
+# for i in `cat /tmp/packages.txt` ; do sudo yum -y install $i; done
 
+cat << EOF > /tmp/vncservers.add
+VNCSERVERS="10:oracle"
+VNCSERVERARGS[10]="-geometry 1280x1024 -nolisten tcp "
+EOF
+sudo chmod 777 /etc/sysconfig/vncservers 
+sudo cat /tmp/vncservers.add >> /etc/sysconfig/vncservers
+sudo chmod 644 /etc/sysconfig/vncservers 
