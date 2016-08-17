@@ -1,0 +1,15 @@
+[Desktop Entry]
+  Comment[en_US]=This is Brackets Editor
+  Comment=Brackets Editor
+  Exec=/bin/brackets
+  GenericName[en_US]=brackets
+  GenericName=brackets
+  Icon=brackets
+  MimeType=
+  Name[en_US]=brackets
+  Name=brackets
+  Path=/tmp/
+  StartupNotify=true
+  Terminal=false
+  TerminalOptions=
+  Type=Application

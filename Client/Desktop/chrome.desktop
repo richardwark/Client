@@ -1,0 +1,15 @@
+[Desktop Entry]
+Comment[en_US]=This is Chrome
+Comment=Chrome
+Exec=/usr/bin/google-chrome
+GenericName[en_US]=Chrome
+GenericName=chrome
+Icon=/opt/google/chrome/product_logo_128.png
+MimeType=
+Name[en_US]=Chrome
+Name=Chrome
+Path=/tmp/
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
