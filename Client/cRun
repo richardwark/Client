@@ -1,0 +1,2 @@
+ssh -i ../Keys/*s oracle@140.86.15.7 "bash -s" -- < ./cSetup 
+#  ssh -i opc@140.86.15.7 "bash -s" -- < ./cSetup 
