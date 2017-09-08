@@ -1,0 +1,15 @@
+{
+    "workshop": {
+        "title": "Client Image Download and Setup",
+        "description": "This guide provides an example of setting up the Lab Workshop Client Image in the Oracle Public Cloud.",
+        "theme": "ttc",
+        "labs": [
+            {
+                "number": "0",
+                "filename": "ClientImage_Readme.md",
+                "title": "README",
+                "description": "Step-by-step instructions"
+            }
+        ]
+    }
+}
