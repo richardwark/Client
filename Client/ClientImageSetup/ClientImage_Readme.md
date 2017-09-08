@@ -17,7 +17,7 @@ The Client is then accessed using a VNC Client (the only requirement on your mac
 
 - [Download](https://www.virtualbox.org/wiki/Downloads) and install the image using the instructions below. 
 
-### Copy OVA file
+### Obtain a Copy of the tar.gz file
 
 **Note**: you will download all X zip files, they are all part of the single archive. You can then use software such as winzip or 7zip to automatically unzip all 6 files into a single *.ova file that can be imported into virtual box. 
 
@@ -29,14 +29,14 @@ The Client is then accessed using a VNC Client (the only requirement on your mac
 
 - Log into your Identity Domain **Oracle Public Cloud**
 
-    ![](images/studentguide/Picture22.png)
+    ![](images/studentguide/Images01-Compute.png)
 
-- Install the VirtualBox Extentions for windows
+- Go to your Compute Dashboard and find the images tab 
 
 
 - From top left menu select **File -> Import Appliance**
 
-    ![](images/studentguide/Picture23.png)
+    ![](images/studentguide/Compute_OPC_-_Instances_images.png)
 
 - Click on **browse** icon to select file to import.
 
