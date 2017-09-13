@@ -42,19 +42,23 @@ The Client is then accessed using a VNC Client (the only requirement on your mac
 
 - Navigate to the unzipped OVA file, and Click **Open**
 
-    ![](images/studentguide/Picture24.png)
+    ![](images/student-guide/Compute_OPC004.png)
 
 - Once the File is selected click **Next** to continue.
 
-    ![](images/studentguide/Picture25.png)
+    ![](images/student-guide/Compute_OPC005.png)
 
 - Keep all the defaults and click **Import**
 
-    ![](images/studentguide/Picture26.png)
+    ![](images/student-guide/Compute_OPC006.png)
 
 - Wait for import to complete. The time required to import will vary depending on the speed of your hard disk.
 
-    ![](images/studentguide/Picture27.png)
+    ![](images/student-guide/Compute_OPC007.png)
+    ![](images/student-guide/Compute_OPC008.png)
+    ![](images/student-guide/Compute_OPC009.png)
+    ![](images/student-guide/Compute_OPC010.png)
+
 
 ### Start Virtual Box Image
 
