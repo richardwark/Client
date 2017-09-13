@@ -17,9 +17,9 @@ The Client is then accessed using a VNC Client (the only requirement on your mac
 
 - [Download](https://www.virtualbox.org/wiki/Downloads) and install the image using the instructions below. 
 
-### Copy OVA file
+### Download the multipart ZIP files which container the bigger tar.gz file
 
-**Note**: you will download all X zip files, they are all part of the single archive. You can then use software such as winzip or 7zip to automatically unzip all 6 files into a single *.ova file that can be imported into virtual box. 
+**Note**: you will download all X zip files, they are all part of the single, multi-part archive. Then, you can use software such as winzip or 7zip to automatically unzip all X files into the single *.tar.gz file that can then be uploaded, assocated and booted as a new instance of the image.
 
 - Download this workshops [zip files](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link...77E4725F3/_VM), and unzip.
 
